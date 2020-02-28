@@ -4,6 +4,7 @@ USER gitpod
 
 RUN sudo apt-get update
 RUN sudo apt-get install hub
+RUN Y
 
 # Install custom tools, runtime, etc. using apt-get
 # For example, the command below would install "bastet" - a command line tetris clone:
