@@ -2,12 +2,15 @@ FROM gitpod/workspace-full-vnc
                     
 USER gitpod
 
+#
+# Installs hub CLI for managing github activity
+#
 RUN sudo apt-get update
 RUN sudo apt-get install hub -y
 
-# Install custom tools, runtime, etc. using apt-get
-# For example, the command below would install "bastet" - a command line tetris clone:
 #
-# RUN sudo apt-get -q update && #     sudo apt-get install -yq bastet && #     sudo rm -rf /var/lib/apt/lists/*
+#   Installs sdkman, and Java 12
 #
-# More information: https://www.gitpod.io/docs/config-docker/
+RUN bash -c ". /home/gitpod/.sdkman/bin/sdkman-init.sh \
+             && sdk install java 12.0.1.j9-adpt"
+
