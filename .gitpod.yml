@@ -5,3 +5,7 @@ tasks:
   - init: sdk use java 12.0.2.j9-adpt
     command: bash setup.sh
 
+
+vscode:
+  extensions:
+    - vscjava.vscode-java-test@0.22.2:ZBznuSuKUJo5X8dZe6b9Nw==
