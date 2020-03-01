@@ -3,7 +3,7 @@ image:
 
 tasks:
   - init: bash init.sh
-    command: bash setup.sh
+    command: bash command.sh
 
 
 vscode:
