@@ -7,4 +7,4 @@ git remote rm upstream
 # works if and only if a correct maintainer opens the repository
 # (github organizations, team-members)  
 #
-git remote add upstream github.com/jorgensta/gitpod-test.git
+git remote add upstream https://github.com/jorgensta/gitpod-test.git
