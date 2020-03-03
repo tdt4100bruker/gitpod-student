@@ -1,4 +1,5 @@
 {
     "java.configuration.updateBuildConfiguration": "interactive",
-    "java.debug.settings.forceBuildBeforeLaunch": false
+    "java.debug.settings.forceBuildBeforeLaunch": false,
+    "editor.autoSave": "on"
 }
