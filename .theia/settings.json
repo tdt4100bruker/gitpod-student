@@ -1,5 +1,6 @@
 {
     "java.configuration.updateBuildConfiguration": "interactive",
     "java.debug.settings.forceBuildBeforeLaunch": false,
+    "java.test.report.showAfterExecution": "always",
     "editor.autoSave": "on"
 }
